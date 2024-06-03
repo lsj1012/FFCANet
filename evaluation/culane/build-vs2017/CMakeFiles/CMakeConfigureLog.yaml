@@ -1,0 +1,439 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2024/3/16 17:10:52。
+      节点 1 上的项目“E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\3.28.3\\CompilerIdC\\.\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx86\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.88
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/3.28.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2024/3/16 17:10:53。
+      节点 1 上的项目“E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\3.28.3\\CompilerIdCXX\\.\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx86\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.66
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/3.28.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/cmake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-vlepcm"
+      binary: "E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-vlepcm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-vlepcm'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" cmTC_85d8c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/3/16 17:10:54。
+        节点 1 上的项目“E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-vlepcm\\cmTC_85d8c.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_85d8c.dir\\Debug\\”。
+          正在创建目录“E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-vlepcm\\Debug\\”。
+          正在创建目录“cmTC_85d8c.dir\\Debug\\cmTC_85d8c.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_85d8c.dir\\Debug\\cmTC_85d8c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85d8c.dir\\Debug\\\\" /Fd"cmTC_85d8c.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "D:\\cmake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27051 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85d8c.dir\\Debug\\\\" /Fd"cmTC_85d8c.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "D:\\cmake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-vlepcm\\Debug\\cmTC_85d8c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-vlepcm/Debug/cmTC_85d8c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-vlepcm/Debug/cmTC_85d8c.lib" /MACHINE:X64  /machine:x64 cmTC_85d8c.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_85d8c.vcxproj -> E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-vlepcm\\Debug\\cmTC_85d8c.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_85d8c.dir\\Debug\\cmTC_85d8c.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_85d8c.dir\\Debug\\cmTC_85d8c.tlog\\cmTC_85d8c.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-vlepcm\\cmTC_85d8c.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.01
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/cmake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-6rp7ww"
+      binary: "E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-6rp7ww"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-6rp7ww'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" cmTC_3f610.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/3/16 17:10:55。
+        节点 1 上的项目“E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-6rp7ww\\cmTC_3f610.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_3f610.dir\\Debug\\”。
+          正在创建目录“E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-6rp7ww\\Debug\\”。
+          正在创建目录“cmTC_3f610.dir\\Debug\\cmTC_3f610.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_3f610.dir\\Debug\\cmTC_3f610.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3f610.dir\\Debug\\\\" /Fd"cmTC_3f610.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "D:\\cmake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27051 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3f610.dir\\Debug\\\\" /Fd"cmTC_3f610.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "D:\\cmake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-6rp7ww\\Debug\\cmTC_3f610.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-6rp7ww/Debug/cmTC_3f610.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-6rp7ww/Debug/cmTC_3f610.lib" /MACHINE:X64  /machine:x64 cmTC_3f610.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_3f610.vcxproj -> E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-6rp7ww\\Debug\\cmTC_3f610.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_3f610.dir\\Debug\\cmTC_3f610.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_3f610.dir\\Debug\\cmTC_3f610.tlog\\cmTC_3f610.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-6rp7ww\\cmTC_3f610.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.68
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.28/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "D:/cmake/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:53 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-ohbqv3"
+      binary: "E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-ohbqv3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-ohbqv3'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" cmTC_1876b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/3/16 17:10:56。
+        节点 1 上的项目“E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-ohbqv3\\cmTC_1876b.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_1876b.dir\\Debug\\”。
+          正在创建目录“E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-ohbqv3\\Debug\\”。
+          正在创建目录“cmTC_1876b.dir\\Debug\\cmTC_1876b.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_1876b.dir\\Debug\\cmTC_1876b.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_1876b.dir\\Debug\\\\" /Fd"cmTC_1876b.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-ohbqv3\\OpenMPTryFlag.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27051 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_1876b.dir\\Debug\\\\" /Fd"cmTC_1876b.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-ohbqv3\\OpenMPTryFlag.c"
+          OpenMPTryFlag.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-ohbqv3\\Debug\\cmTC_1876b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-ohbqv3/Debug/cmTC_1876b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-ohbqv3/Debug/cmTC_1876b.lib" /MACHINE:X64  /machine:x64 cmTC_1876b.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_1876b.vcxproj -> E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-ohbqv3\\Debug\\cmTC_1876b.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_1876b.dir\\Debug\\cmTC_1876b.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_1876b.dir\\Debug\\cmTC_1876b.tlog\\cmTC_1876b.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-ohbqv3\\cmTC_1876b.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.73
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.28/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "D:/cmake/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:53 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-95kk9g"
+      binary: "E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-95kk9g"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-95kk9g'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" cmTC_35f2f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/3/16 17:10:57。
+        节点 1 上的项目“E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-95kk9g\\cmTC_35f2f.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_35f2f.dir\\Debug\\”。
+          正在创建目录“E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-95kk9g\\Debug\\”。
+          正在创建目录“cmTC_35f2f.dir\\Debug\\cmTC_35f2f.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_35f2f.dir\\Debug\\cmTC_35f2f.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_35f2f.dir\\Debug\\\\" /Fd"cmTC_35f2f.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-95kk9g\\OpenMPTryFlag.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27051 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_35f2f.dir\\Debug\\\\" /Fd"cmTC_35f2f.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-95kk9g\\OpenMPTryFlag.cpp"
+          OpenMPTryFlag.cpp
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-95kk9g\\Debug\\cmTC_35f2f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-95kk9g/Debug/cmTC_35f2f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-95kk9g/Debug/cmTC_35f2f.lib" /MACHINE:X64  /machine:x64 cmTC_35f2f.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_35f2f.vcxproj -> E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-95kk9g\\Debug\\cmTC_35f2f.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_35f2f.dir\\Debug\\cmTC_35f2f.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_35f2f.dir\\Debug\\cmTC_35f2f.tlog\\cmTC_35f2f.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-95kk9g\\cmTC_35f2f.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.70
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.28/Modules/FindOpenMP.cmake:420 (try_compile)"
+      - "D:/cmake/share/cmake-3.28/Modules/FindOpenMP.cmake:560 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:53 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-779ant"
+      binary: "E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-779ant"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-779ant'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" cmTC_8eb97.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/3/16 17:10:58。
+        节点 1 上的项目“E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-779ant\\cmTC_8eb97.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_8eb97.dir\\Debug\\”。
+          正在创建目录“E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-779ant\\Debug\\”。
+          正在创建目录“cmTC_8eb97.dir\\Debug\\cmTC_8eb97.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_8eb97.dir\\Debug\\cmTC_8eb97.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_8eb97.dir\\Debug\\\\" /Fd"cmTC_8eb97.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-779ant\\OpenMPCheckVersion.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27051 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_8eb97.dir\\Debug\\\\" /Fd"cmTC_8eb97.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-779ant\\OpenMPCheckVersion.c"
+          OpenMPCheckVersion.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-779ant\\Debug\\cmTC_8eb97.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-779ant/Debug/cmTC_8eb97.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-779ant/Debug/cmTC_8eb97.lib" /MACHINE:X64  /machine:x64 cmTC_8eb97.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_8eb97.vcxproj -> E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-779ant\\Debug\\cmTC_8eb97.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_8eb97.dir\\Debug\\cmTC_8eb97.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_8eb97.dir\\Debug\\cmTC_8eb97.tlog\\cmTC_8eb97.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-779ant\\cmTC_8eb97.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.75
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/cmake/share/cmake-3.28/Modules/FindOpenMP.cmake:420 (try_compile)"
+      - "D:/cmake/share/cmake-3.28/Modules/FindOpenMP.cmake:560 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:53 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-puc5cs"
+      binary: "E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-puc5cs"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-puc5cs'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" cmTC_c66a7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/3/16 17:10:59。
+        节点 1 上的项目“E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-puc5cs\\cmTC_c66a7.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_c66a7.dir\\Debug\\”。
+          正在创建目录“E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-puc5cs\\Debug\\”。
+          正在创建目录“cmTC_c66a7.dir\\Debug\\cmTC_c66a7.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_c66a7.dir\\Debug\\cmTC_c66a7.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_c66a7.dir\\Debug\\\\" /Fd"cmTC_c66a7.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-puc5cs\\OpenMPCheckVersion.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27051 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_c66a7.dir\\Debug\\\\" /Fd"cmTC_c66a7.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-puc5cs\\OpenMPCheckVersion.cpp"
+          OpenMPCheckVersion.cpp
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-puc5cs\\Debug\\cmTC_c66a7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-puc5cs/Debug/cmTC_c66a7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/deep/Ultra-Fast-Lane-Detection-master/evaluation/culane/build-vs2017/CMakeFiles/CMakeScratch/TryCompile-puc5cs/Debug/cmTC_c66a7.lib" /MACHINE:X64  /machine:x64 cmTC_c66a7.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_c66a7.vcxproj -> E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-puc5cs\\Debug\\cmTC_c66a7.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_c66a7.dir\\Debug\\cmTC_c66a7.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_c66a7.dir\\Debug\\cmTC_c66a7.tlog\\cmTC_c66a7.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\deep\\Ultra-Fast-Lane-Detection-master\\evaluation\\culane\\build-vs2017\\CMakeFiles\\CMakeScratch\\TryCompile-puc5cs\\cmTC_c66a7.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.76
+        
+      exitCode: 0
+...

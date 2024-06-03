@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\deep\Ultra-Fast-Lane-Detection-master\evaluation\culane\src\counter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\deep\Ultra-Fast-Lane-Detection-master\evaluation\culane\src\evaluate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\deep\Ultra-Fast-Lane-Detection-master\evaluation\culane\src\lane_compare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\deep\Ultra-Fast-Lane-Detection-master\evaluation\culane\src\spline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\deep\Ultra-Fast-Lane-Detection-master\evaluation\culane\getopt\getopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\deep\Ultra-Fast-Lane-Detection-master\evaluation\culane\include\counter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\deep\Ultra-Fast-Lane-Detection-master\evaluation\culane\include\hungarianGraph.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\deep\Ultra-Fast-Lane-Detection-master\evaluation\culane\include\lane_compare.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\deep\Ultra-Fast-Lane-Detection-master\evaluation\culane\include\spline.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\deep\Ultra-Fast-Lane-Detection-master\evaluation\culane\getopt\getopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\deep\Ultra-Fast-Lane-Detection-master\evaluation\culane\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7AFEBF66-0D38-30DE-A639-7BA95B8B3B86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8C8A50EF-1FEA-3C1B-B209-F40552F1AE64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
